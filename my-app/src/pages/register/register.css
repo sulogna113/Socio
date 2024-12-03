@@ -1,0 +1,51 @@
+.side-logo{
+    float: left;
+    width: 50%;
+}
+.svg-logo{
+    margin-left: 15rem;
+    margin-top: 13rem;
+}
+.signup-container{
+    float: right;
+    width: 50%;
+}
+.signup-form{
+    text-align: center;
+    margin-top: 15rem;
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
+    margin-top: 170px;
+    margin-left: 90px;
+    padding: 30px;
+}
+.signup-form--input{
+    height: 3.5rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    width: 400px;
+    margin: 20px;
+    padding:3px;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+#submit-signup-button{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    margin-left: -60px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: cornsilk;
+}
+.footer{
+    position: relative;
+    margin-top: 4rem;
+    margin-left: 10px;
+}
+/* .login-link{
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: -5px;
+} */

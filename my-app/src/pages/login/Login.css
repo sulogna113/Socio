@@ -1,0 +1,88 @@
+.login{
+  width: 100vw;
+  height: 100vh;
+  background-color: #b0e3fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+.loginWrapper {
+   
+    display: flex;
+    text-align: left;
+    background-color: #6666ff;
+    padding: 50px;
+  }
+
+.loginLeft{
+    width: 500px;
+    height: 500px;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+}
+.loginBox{
+  height: 300px;
+  padding: 70px;
+  margin: 70px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginInput{
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding-left: 20px;
+  margin: 5px;
+}
+
+.loginInput:focus{
+  outline: none;
+}
+
+.loginButton 
+{
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #6666ff;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.loginWithGoogle,
+.loginWithFB{
+  margin: 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(235, 213, 184);
+ 
+}
+.loginForgot{
+  text-align: center;
+  color: #1775ee;
+  padding: 10px;
+}
+
+.loginRegisterButton{
+  width: 70%;
+  align-self: center;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #42b72a;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
